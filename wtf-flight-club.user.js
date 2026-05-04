@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WTF Flight Club
 // @namespace    https://github.com/Silverdark/TornScripts
-// @version      2026-04-12.1
+// @version      2026-05-04.1
 // @description  Flight Club Helper tools
 // @author       Silverdark [3503183], neth [3564828]
 // @icon         https://flightclub.what-the-f.de/assets/img/wtf-flight.png
@@ -150,7 +150,7 @@
         fcButton.style.width = "34px";
 
         const fcImage = document.createElement("img");
-        fcImage.src = "https://travel.wtf-torn.app/assets/img/wtf-flight.png";
+        fcImage.src = travelWebsiteUrl + "/assets/img/wtf-flight.png";
         fcImage.alt = "WTF Flight Club";
         fcImage.style.width = "18px";
         fcImage.style.height = "18px";
