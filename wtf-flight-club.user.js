@@ -150,7 +150,7 @@
         fcButton.style.width = "34px";
 
         const fcImage = document.createElement("img");
-        fcImage.src = travelWebsiteUrl + "/assets/img/wtf-flight.png";
+        fcImage.src = travelWebsiteUrl + "assets/img/wtf-flight.png";
         fcImage.alt = "WTF Flight Club";
         fcImage.style.width = "18px";
         fcImage.style.height = "18px";
